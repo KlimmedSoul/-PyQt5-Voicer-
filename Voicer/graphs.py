@@ -1,8 +1,8 @@
 import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog
 #insert paths for importing the function and class
-sys.path.insert(0, './/gui')
-sys.path.insert(1, './/voice_out_funcs')
+sys.path.insert(0, './gui')
+sys.path.insert(1, './voice_out_funcs')
 from voicer import Ui_MainWindow
 from docx_to_mp3 import docx_to_mp3
 from txt_to_mp3 import txt_to_mp3
